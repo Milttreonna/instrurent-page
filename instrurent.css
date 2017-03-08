@@ -1,4 +1,33 @@
-.one {background-color: #352C28;}
-.two {background-color: #835F6D;}
-.three {background-color: #A7B6B3;}
-.four {background-color: #D1DBDA;}
+@font-face {
+  font-family: inherit;
+  src: url("rock.ttf")
+  font-weight: bold;
+}
+
+body {background-color:#008F95;
+  color: #5F0F4E;
+  font-family: 'Vollkorn', serif;}
+
+
+h1 {font-size: 500%;
+   font-family: "rock";
+   color:#5F0F4E;
+   text-shadow: 5px 5px 2px #888888;}
+
+.about {width: 500px;
+  border: 25px solid #64CCCC;
+    padding: 50px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: #64CCCC;
+}
+.aboutRent {
+font-family: 'Vollkorn', serif;
+  font-size: 100%;
+  -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border: 3px solid #64CCCC;
+   padding: 5px;
+  background-color: #64CCCC;
+}
+
+img { height: 500px; width:500px; border: solid; border-width: 30px; border-radius: 20px;border-color: #64CCCC;}
