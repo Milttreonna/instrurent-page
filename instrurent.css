@@ -6,7 +6,7 @@
 body {
     background-color: #008F95;
     color: #5F0F4E;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Slabo 27px', serif;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 }
 
 .submitButton {
-    font-family: 'Vollkorn', serif;
+    font-family: 'Slabo 27px', serif;
     font-size: 100%;
     -moz-border-radius: 2px;
     -webkit-border-radius: 5px;
@@ -36,7 +36,7 @@ h1 {
 
 .aboutRent {
   color:#5F0F4E ;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Slabo 27px', serif;
     font-size: 17px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 5px;
