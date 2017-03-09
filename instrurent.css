@@ -13,15 +13,15 @@ h1 {
     font-size: 500%;
     font-family: "rock";
     color: #5F0F4E;
-    text-shadow: 5px 5px 2px #888888;
+    text-shadow: 5px 5px 5px #423463;
 }
 
 .about {
     width: 500px;
     border: 25px solid #64CCCC;
     padding: 50px;
-    box-shadow: 10px 10px 5px #888888;
-    background-color: #64CCCC;
+    box-shadow: 5px 5px 5px  #423463;
+    background-color: #5F0F4E;
 }
 
 .submitButton {
@@ -35,6 +35,7 @@ h1 {
 }
 
 .aboutRent {
+  color:#5F0F4E ;
     font-family: 'Vollkorn', serif;
     font-size: 17px;
     -moz-border-radius: 2px;
@@ -42,6 +43,9 @@ h1 {
     border: 3px solid #64CCCC;
     padding: 4px;
     background-color: #64CCCC;
+}
+
+.aboutBody {color: #64CCCC;
 }
 
 .photo {
