@@ -12,7 +12,9 @@ body {background-color:#008F95;
 h1 {font-size: 500%;
    font-family: "rock";
    color:#5F0F4E;
-   text-shadow: 5px 5px 2px #888888;}
+   text-shadow: 5px 5px 2px #888888;
+}
+
 
 .about {width: 500px;
   border: 25px solid #64CCCC;
@@ -20,14 +22,22 @@ h1 {font-size: 500%;
     box-shadow: 10px 10px 5px #888888;
     background-color: #64CCCC;
 }
-.aboutRent {
+.submitButton{
 font-family: 'Vollkorn', serif;
   font-size: 100%;
-  -moz-border-radius: 20px;
-   -webkit-border-radius: 20px;
+  -moz-border-radius: 2px;
+   -webkit-border-radius: 5px;
    border: 3px solid #64CCCC;
-   padding: 5px;
+   padding: 2px;
   background-color: #64CCCC;
 }
 
-img { height: 500px; width:500px; border: solid; border-width: 30px; border-radius: 20px;border-color: #64CCCC;}
+.aboutRent {font-family: 'Vollkorn', serif;
+  font-size: 17px;
+  -moz-border-radius: 2px;
+   -webkit-border-radius: 5px;
+   border: 3px solid #64CCCC;
+   padding: 4px;
+  background-color: #64CCCC;}
+
+.photo { height: 500px; width:500px; border: solid; border-width: 30px; border-radius: 20px;border-color: #64CCCC;}
