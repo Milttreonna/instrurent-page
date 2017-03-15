@@ -49,8 +49,10 @@ h1 {
 }
 
 .photo {
-    height: 500px;
-    width: 500px;
+    max-width: 400px;
+    max-height:500px;
+     min-width:20px;
+    min-height: 20px;
     border: solid;
     border-width: 30px;
     border-radius: 20px;
