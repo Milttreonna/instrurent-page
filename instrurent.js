@@ -8,4 +8,7 @@ var piano_cost=221.13;
 var sax_cost=410.02;
 var trumpet_cost=317.07;
 var violin_cost=91.00;
+// set cost = to t
+function get_total(t,)
+
 
