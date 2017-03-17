@@ -9,6 +9,51 @@ var sax_cost=410.02;
 var trumpet_cost=317.07;
 var violin_cost=91.00;
 // set cost = to t
-function get_total(t, )
+
+
+// var clarinet_button = document.getElementsByClassName('clarinetButton');
+var clarinetTotal = function() {
+    alert("I'm the clarinet!");
+}
+
+var aguitarTotal =function() {
+
+}
+
+var banjoTotal = function() {
+
+}
+
+var congaTotal = function() {
+
+}
+
+var drumTotal= function() {
+
+}
+
+var egutarTotal= function(){
+
+}
+
+var pianoTotal= function(){
+
+}
+
+var saxTotal= function() {
+
+}
+
+var trumpetTotal= function(){
+
+}
+
+var violinTotal= function(){
+    
+}
+
+// function get_total(t, instrumentWeeks ) { 
+
+// };
 
 
