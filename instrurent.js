@@ -13,7 +13,10 @@ var violin_cost=91.00;
 
 // var clarinet_button = document.getElementsByClassName('clarinetButton');
 var clarinetTotal = function() {
-    alert("I'm the clarinet!");
+    var weeks_value= document.getElementById("clarinetWeeks").value;
+    var full_total=weeks_value*clarinet_cost;
+    document.getElementById("clarinetTotal").innerHTML=full_total;
+   
 }
 
 var aguitarTotal =function() {
@@ -21,35 +24,35 @@ var aguitarTotal =function() {
 }
 
 var banjoTotal = function() {
-
+ 
 }
 
 var congaTotal = function() {
-
+ 
 }
 
 var drumTotal= function() {
-
+ 
 }
 
 var egutarTotal= function(){
-
+ 
 }
 
 var pianoTotal= function(){
-
+ 
 }
 
 var saxTotal= function() {
-
+ 
 }
 
 var trumpetTotal= function(){
-
+ 
 }
 
 var violinTotal= function(){
-    
+ 
 }
 
 // function get_total(t, instrumentWeeks ) { 
