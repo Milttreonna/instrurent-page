@@ -32,22 +32,37 @@ var banjoTotal = function() {
 }
 
 var congaTotal = function() {
+    var weeks_value= document.getElementById("congaWeeks").value;
+    var full_total=weeks_value*conga_cost;
+    document.getElementById("congaTotal").innerHTML=full_total;
  
 }
 
 var drumTotal= function() {
+    var weeks_value= document.getElementById("drumWeeks").value;
+    var full_total=weeks_value*drum_cost;
+    document.getElementById("drumTotal").innerHTML=full_total;
  
 }
 
-var egutarTotal= function(){
+var eguitarTotal= function(){
+  var weeks_value= document.getElementById("eguitarWeeks").value;
+    var full_total=weeks_value*eguitar_cost;
+    document.getElementById("eguitarTotal").innerHTML=full_total;
  
 }
 
 var pianoTotal= function(){
+  var weeks_value= document.getElementById("pianoWeeks").value;
+    var full_total=weeks_value*piano_cost;
+    document.getElementById("pianoTotal").innerHTML=full_total;
  
 }
 
 var saxTotal= function() {
+  var weeks_value= document.getElementById("saxWeeks").value;
+    var full_total=weeks_value*sax_cost;
+    document.getElementById("saxTotal").innerHTML=full_total;
  
 }
 
