@@ -11,11 +11,13 @@ var violin_cost=91.00;
 // set cost = to t
 
 
+
 // var clarinet_button = document.getElementsByClassName('clarinetButton');
 var clarinetTotal = function() {
     var weeks_value= document.getElementById("clarinetWeeks").value;
     var full_total=weeks_value*clarinet_cost;
-    document.getElementById("clarinetTotal").innerHTML=full_total;
+    full_total=full_total.toFixed(2);    
+    document.getElementById("clarinetTotal").innerHTML="$"+full_total;
    
 }
 
