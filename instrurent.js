@@ -44,7 +44,7 @@ var congaTotal = function() {
 
 var drumTotal= function() {
     var weeks_value= document.getElementById("drumWeeks").value;
-    var full_total=weeks_value*drum_cost;
+    var full_total=weeks_value*drum_cost*1.07;
     full_total=full_total.toFixed(2);
     document.getElementById("drumTotal").innerHTML="$"+full_total;
  
@@ -52,7 +52,7 @@ var drumTotal= function() {
 
 var eguitarTotal= function(){
   var weeks_value= document.getElementById("eguitarWeeks").value;
-    var full_total=weeks_value*eguitar_cost;
+    var full_total=weeks_value*eguitar_cost ;
     full_total=full_total.toFixed(2);
     document.getElementById("eguitarTotal").innerHTML="$"+full_total;
  
