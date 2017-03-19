@@ -76,6 +76,7 @@ var saxTotal= function() {
 var trumpetTotal= function(){
     var weeks_value= document.getElementById("trumpetWeeks").value;
     var full_total=weeks_value*trumpet_cost;
+    full_total=full_total.toFixed(2);
     document.getElementById("trumpetTotal").innerHTML="$"+full_total;
  
 }
