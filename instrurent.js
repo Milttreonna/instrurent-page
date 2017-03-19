@@ -84,6 +84,7 @@ var trumpetTotal= function(){
 var violinTotal= function(){
   var weeks_value= document.getElementById("violinWeeks").value;
     var full_total=weeks_value*violin_cost;
+    full_total=full_total.toFixed(2);
     document.getElementById("violinTotal").innerHTML="$"+full_total;
  
 }
