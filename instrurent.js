@@ -36,7 +36,7 @@ var banjoTotal = function() {
 
 var congaTotal = function() {
     var weeks_value= document.getElementById("congaWeeks").value;
-    var full_total=weeks_value*conga_cost;
+    var full_total=weeks_value*conga_cost*1.07;
     full_total=full_total.toFixed(2);
     document.getElementById("congaTotal").innerHTML="$"+full_total;
  
