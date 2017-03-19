@@ -9,11 +9,7 @@ var sax_cost=410.02;
 var trumpet_cost=317.07;
 var conga_cost=35.10;
 
-
-
-
-
-
+// change prices in html file
 
 // set cost = to t
 
