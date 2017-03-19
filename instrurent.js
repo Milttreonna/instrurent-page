@@ -52,7 +52,7 @@ var drumTotal= function() {
 
 var eguitarTotal= function(){
   var weeks_value= document.getElementById("eguitarWeeks").value;
-    var full_total=weeks_value*eguitar_cost ;
+    var full_total=weeks_value*eguitar_cost *1.07;
     full_total=full_total.toFixed(2);
     document.getElementById("eguitarTotal").innerHTML="$"+full_total;
  
