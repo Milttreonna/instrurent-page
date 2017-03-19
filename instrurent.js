@@ -68,6 +68,7 @@ var pianoTotal= function(){
 var saxTotal= function() {
   var weeks_value= document.getElementById("saxWeeks").value;
     var full_total=weeks_value*sax_cost;
+    full_total=full_total.toFixed(2);
     document.getElementById("saxTotal").innerHTML="$"+full_total;
  
 }
