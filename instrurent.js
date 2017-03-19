@@ -13,6 +13,9 @@ var conga_cost=35.10;
 
 // set cost = to t
 
+function add_comma(x) {
+     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+ }
 
 var clarinetTotal = function() {
     var weeks_value= document.getElementById("clarinetWeeks").value;
@@ -72,7 +75,7 @@ var saxTotal= function() {
   var weeks_value= document.getElementById("saxWeeks").value;
     var full_total=weeks_value*sax_cost*1.07;
     full_total=full_total.toFixed(2);
-    document.getElementById("saxTotal").innerHTML="$"+full_total;
+    document.getElementById("saxTotal").innerHTML="$"+add_comma(full_total);
  
 }
 
@@ -80,7 +83,7 @@ var trumpetTotal= function(){
     var weeks_value= document.getElementById("trumpetWeeks").value;
     var full_total=weeks_value*trumpet_cost*1.07;
     full_total=full_total.toFixed(2);
-    document.getElementById("trumpetTotal").innerHTML="$"+full_total;
+    document.getElementById("trumpetTotal").innerHTML="$"+add_comma(full_total);
  
 }
 
