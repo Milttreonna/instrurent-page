@@ -60,6 +60,7 @@ var eguitarTotal= function(){
 var pianoTotal= function(){
   var weeks_value= document.getElementById("pianoWeeks").value;
     var full_total=weeks_value*piano_cost;
+    full_total=full_total.toFixed(2);
     document.getElementById("pianoTotal").innerHTML="$"+full_total;
  
 }
