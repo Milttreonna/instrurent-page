@@ -8,12 +8,13 @@ var piano_cost=221.13;
 var sax_cost=410.02;
 var trumpet_cost=317.07;
 var violin_cost=91.00;
+
 // set cost = to t
 
 
 var clarinetTotal = function() {
     var weeks_value= document.getElementById("clarinetWeeks").value;
-    var full_total=weeks_value*clarinet_cost;
+    var full_total=weeks_value*clarinet_cost*1.07;
     full_total=full_total.toFixed(2);    
     document.getElementById("clarinetTotal").innerHTML="$"+full_total;
    
