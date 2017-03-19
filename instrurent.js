@@ -29,7 +29,7 @@ var aguitarTotal =function() {
 
 var banjoTotal = function() {
  var weeks_value= document.getElementById("banjoWeeks").value;
-    var full_total=weeks_value*banjo_cost;
+    var full_total=weeks_value*banjo_cost*1.07;
     full_total=full_total.toFixed(2);
     document.getElementById("banjoTotal").innerHTML="$"+full_total;
 }
