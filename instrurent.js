@@ -8,19 +8,21 @@ var banjo_cost= 62.27;
 var sax_cost=410.02;
 var trumpet_cost=317.07;
 var conga_cost=35.10;
+var weeks_value="";
 var cart_total=0;
 // set cost = to t
+
+// object.onclick = function(){};
 
 function add_comma(x) {
      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
  }
+ 
+function full_total(w,c) {return (w*c*1.07);}
 
 var clarinetTotal = function() {
-    var weeks_value= document.getElementById("clarinetWeeks").value;
-    var full_total=weeks_value*clarinet_cost*1.07;
-    full_total=full_total.toFixed(2);    
-    document.getElementById("clarinetTotal").innerHTML="$"+full_total;
-   
+    var weeks_value= document.getElementById("clarinetWeeks").value; 
+    document.getElementById("clarinetTotal").innerHTML="$"+full_total(weeks_value,clarinet_cost).toFixed(2);
 }
 
 var aguitarTotal =function() {
