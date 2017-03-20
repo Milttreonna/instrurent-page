@@ -8,7 +8,7 @@ var banjo_cost= 62.27;
 var sax_cost=410.02;
 var trumpet_cost=317.07;
 var conga_cost=35.10;
-
+var cart_total=0;
 // set cost = to t
 
 function add_comma(x) {
