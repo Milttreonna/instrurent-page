@@ -12,7 +12,7 @@ var weeks_value="";
 var customer_total="";
 var cart_total=0;
 
-// make done button, make show_cart_total() that adds commas, add nav bar, change buttons back to about rent
+// make done button, make show_cart_total() that adds commas (use alerts), add nav bar, change buttons back to aboutRent
 
 function add_comma(x) {
      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
