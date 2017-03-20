@@ -51,7 +51,7 @@ h1 {
 .photo {
     max-width: 400px;
     max-height:500px;
-     min-width:20px;
+    min-width:20px;
     min-height: 20px;
     border: solid;
     border-width: 30px;
@@ -59,3 +59,30 @@ h1 {
     border-color: #64CCCC;
 }
 .github{height:50px;width:50px;}
+
+ul {float: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #008F95;
+}
+
+li {
+  float: right;
+}
+ .cart{height:15px; width:15px; }
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #64CCCC;
+    color: #5F0F4E;
+}
