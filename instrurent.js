@@ -10,15 +10,15 @@ var trumpet_cost=317.07;
 var conga_cost=35.10;
 var weeks_value="";
 var cart_total=0;
-// set cost = to t
 
 // object.onclick = function(){};
 
 function add_comma(x) {
      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
  }
- 
-function full_total(w,c) {return (w*c*1.07);}
+
+function full_total(w,c) {return (w*c*1.07);
+    }
 
 var clarinetTotal = function() {
     var weeks_value= document.getElementById("clarinetWeeks").value; 
@@ -27,76 +27,63 @@ var clarinetTotal = function() {
 
 var aguitarTotal =function() {
  var weeks_value= document.getElementById("aguitarWeeks").value;
-    var full_total=weeks_value*aguitar_cost*1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("aguitarTotal").innerHTML="$"+full_total;
+   
+    document.getElementById("aguitarTotal").innerHTML="$"+full_total(weeks_value,aguitar_cost).toFixed(2);
 }
 
 var banjoTotal = function() {
  var weeks_value= document.getElementById("banjoWeeks").value;
-    var full_total=weeks_value*banjo_cost*1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("banjoTotal").innerHTML="$"+full_total;
+    
+    document.getElementById("banjoTotal").innerHTML="$"+full_total(weeks_value,banjo_cost).toFixed(2);
 }
 
 var congaTotal = function() {
     var weeks_value= document.getElementById("congaWeeks").value;
-    var full_total=weeks_value*conga_cost*1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("congaTotal").innerHTML="$"+full_total;
+    
+    document.getElementById("congaTotal").innerHTML="$"+full_total(weeks_value,conga_cost).toFixed(2);
  
 }
 
 var drumTotal= function() {
     var weeks_value= document.getElementById("drumWeeks").value;
-    var full_total=weeks_value*drum_cost*1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("drumTotal").innerHTML="$"+full_total;
+    
+    document.getElementById("drumTotal").innerHTML="$"+full_total(weeks_value,drum_cost).toFixed(2);
  
 }
 
 var eguitarTotal= function(){
   var weeks_value= document.getElementById("eguitarWeeks").value;
-    var full_total=weeks_value*eguitar_cost *1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("eguitarTotal").innerHTML="$"+full_total;
+
+    document.getElementById("eguitarTotal").innerHTML="$"+full_total(weeks_value,eguitar_cost).toFixed(2);
  
 }
 
 var pianoTotal= function(){
   var weeks_value= document.getElementById("pianoWeeks").value;
-    var full_total=weeks_value*piano_cost*1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("pianoTotal").innerHTML="$"+full_total;
+    
+    document.getElementById("pianoTotal").innerHTML="$"+full_total(weeks_value,piano_cost).toFixed(2);
  
 }
 
 var saxTotal= function() {
   var weeks_value= document.getElementById("saxWeeks").value;
-    var full_total=weeks_value*sax_cost*1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("saxTotal").innerHTML="$"+add_comma(full_total);
+ 
+    document.getElementById("saxTotal").innerHTML="$"+add_comma(full_total(weeks_value,sax_cost).toFixed(2));
  
 }
 
 var trumpetTotal= function(){
     var weeks_value= document.getElementById("trumpetWeeks").value;
-    var full_total=weeks_value*trumpet_cost*1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("trumpetTotal").innerHTML="$"+add_comma(full_total);
+    
+    document.getElementById("trumpetTotal").innerHTML="$"+add_comma(full_total(weeks_value,trumpet_cost).toFixed(2));
  
 }
 
 var violinTotal= function(){
   var weeks_value= document.getElementById("violinWeeks").value;
-    var full_total=weeks_value*violin_cost*1.07;
-    full_total=full_total.toFixed(2);
-    document.getElementById("violinTotal").innerHTML="$"+full_total;
+    
+    document.getElementById("violinTotal").innerHTML="$"+full_total(weeks_value,violin_cost).toFixed(2);
  
 }
-
-// function get_total(t, instrumentWeeks ) { 
-
-// };
 
 
