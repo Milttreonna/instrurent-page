@@ -84,6 +84,7 @@ var violinTotal= function(){
 }
 
 var add_to_cart = function(){
+     cart_total=Number(cart_total)
      cart_total+=Number(customer_total)
      cart_total=(cart_total.toFixed(2));
      document.getElementById("complete_total").innerHTML="<img class='cart' src='images/cart2.png'> $"+add_comma(cart_total);
